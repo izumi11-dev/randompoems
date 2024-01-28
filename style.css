@@ -1,0 +1,44 @@
+body {
+   padding: 0;
+   margin-top: 50px;
+   height: 400px;
+   text-align: center;
+}
+
+span{
+   color: red;   
+}
+
+.poems-container{
+   margin-top: 130px;
+   font-size: 20px;
+}
+.poets-output{
+   color: red;
+    margin-top: 50px;  
+}
+
+.poems-btn{
+   margin-top: 80px;
+   width: 300px;
+   height: 70px;
+   font-size: 30px;
+   background-color: red;
+   border: 1px solid red;
+   border-radius: 20px;
+}
+
+@media screen and (max-width: 600px) {
+   body{
+   width: 370px; 
+   height: 400px;
+   
+   }
+   .poems-container{
+   font-size: 13px;      
+   }
+   .poems-btn{
+   width: 170px;
+   height: 70px;
+   }
+}
