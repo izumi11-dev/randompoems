@@ -4,6 +4,8 @@ const poemsBtn = document.querySelector(".poems-btn");
 
 poemsBtn.addEventListener("click", randomPoems);
 
+// source from facebook group
+// မင်းတင်တဲ့ ကဗျာက မင်းဦးနှောက်ရဲ့ level ပဲ
 const arrayOfPoems = [
         {
                 poets: "- စောညို့ဝန်း-",
