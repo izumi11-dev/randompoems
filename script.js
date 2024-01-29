@@ -1,5 +1,3 @@
-import { Analytics } from '@vercel/analytics/react';
- 
 const poemsOutput = document.querySelector(".poems-output");
 const poetsOutput = document.querySelector(".poets-output");
 const poemsBtn = document.querySelector(".poems-btn");
